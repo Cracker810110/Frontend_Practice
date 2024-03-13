@@ -66,6 +66,42 @@
 
 // Assingment Operators
 
-as+=94;
+let aa=5;
+let bb=6;
+let cc=4;
+let dd=9;
+let ee=4;
+let ff=2;
+aa += 4;
+console.log("aa =", aa);
+bb -= 4;
+console.log("bb =", bb);
+cc *= 1;
+console.log("cc =", cc);
+dd /= 2;
+console.log("dd =", dd);
+ee %= 2;
+console.log("ee =", ee);
+ff **=1;
+console.log("ff =", ff);
 
+//Comparison Operators
 
+let aaa = 5;
+let bbb = "5"; // This is important!
+
+console.log("aaa == bbb", aaa == bbb); //true
+console.log("aaa != bbb", aaa != bbb); //false
+console.log("aaa === bbb", aaa === bbb); //false
+console.log("aaa !== bbb", aaa !== bbb); //true
+
+let ccc=4;
+let ddd=6;
+console.log("ccc < ddd", ccc < ddd);
+console.log("ccc > ddd", ccc > ddd);
+console.log("ccc <= ddd", ddd >= ccc);
+console.log("ccc >= ddd", ddd <= ccc);
+
+// Logical Operators
+
+let eee
