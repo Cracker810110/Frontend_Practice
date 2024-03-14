@@ -66,41 +66,81 @@
 
 // Assingment Operators
 
-let aa=5;
-let bb=6;
-let cc=4;
-let dd=9;
-let ee=4;
-let ff=2;
-aa += 4;
-console.log("aa =", aa);
-bb -= 4;
-console.log("bb =", bb);
-cc *= 1;
-console.log("cc =", cc);
-dd /= 2;
-console.log("dd =", dd);
-ee %= 2;
-console.log("ee =", ee);
-ff **=1;
-console.log("ff =", ff);
+// let aa=5;
+// let bb=6;
+// let cc=4;
+// let dd=9;
+// let ee=4;
+// let ff=2;
+// aa += 4;
+// console.log("aa =", aa);
+// bb -= 4;
+// console.log("bb =", bb);
+// cc *= 1;
+// console.log("cc =", cc);
+// dd /= 2;
+// console.log("dd =", dd);
+// ee %= 2;
+// console.log("ee =", ee);
+// ff **=1;
+// console.log("ff =", ff);
 
-//Comparison Operators
+// //Comparison Operators
 
-let aaa = 5;
-let bbb = "5"; // This is important!
+// let aaa = 5;
+// let bbb = "5"; // This is important!
 
-console.log("aaa == bbb", aaa == bbb); //true
-console.log("aaa != bbb", aaa != bbb); //false
-console.log("aaa === bbb", aaa === bbb); //false
-console.log("aaa !== bbb", aaa !== bbb); //true
+// console.log("aaa == bbb", aaa == bbb); //true
+// console.log("aaa != bbb", aaa != bbb); //false
+// console.log("aaa === bbb", aaa === bbb); //false
+// console.log("aaa !== bbb", aaa !== bbb); //true
 
-let ccc=4;
-let ddd=6;
-console.log("ccc < ddd", ccc < ddd);
-console.log("ccc > ddd", ccc > ddd);
-console.log("ccc <= ddd", ddd >= ccc);
-console.log("ccc >= ddd", ddd <= ccc);
+// let ccc=4;
+// let ddd=6;
+// console.log("ccc < ddd", ccc < ddd);
+// console.log("ccc > ddd", ccc > ddd);
+// console.log("ccc <= ddd", ddd >= ccc);
+// console.log("ccc >= ddd", ddd <= ccc);
 
 // Logical Operators
 
+// let eee=183;
+// let fff=93;
+// let cond1= eee > fff;
+// let cond2= eee === 183;
+// console.log("cond1 && cond2 =", cond1 && cond2);
+// console.log("cond1 && cond2 =", cond1 || cond2);
+// let cond3= 183;
+// let cond4= 93;
+// console.log("(183 > 93)", !(cond3 > cond4));
+// console.log("(183 === 183)", !(cond3 === 183));
+
+// Bitwise Operators
+/* I am not going to use this */
+
+// Conditional Statements
+
+// let age = 18;
+
+// if (age >= 18) {
+//     console.log("You are eligible for voting");
+//   }
+//   if (age < 18) {
+//       console.log("You are not eligible for voting");
+//     }
+
+// let mode = "dark";
+// mode = "light";
+// let color;
+// console.log(typeof color);
+
+//   if (mode === "dark") {
+//     color = "black";
+//     console.log("You are in dark mode");
+//   }
+//   if (mode === "light") {
+//     color = "white";
+//     console.log("You are in light mode");
+//   }
+  
+  // if - else statement
