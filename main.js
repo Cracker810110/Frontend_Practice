@@ -144,3 +144,18 @@
 //   }
   
   // if - else statement
+
+  let mode2 = "dark";
+  let mode3 = "light";
+  let pageColor = "dark-mode";
+  let pageColor2 = "white-mode";
+  let color;
+  if (mode2 === "dark") {
+    pageColor = "dark-mode";
+    color = "black";
+    console.log("You are in dark mode","and", "color is", color);
+  } else if (mode3 === "light") {
+    pageColor = "white-mode";
+    color = "white";
+    console.log("You are in light mode" ,"and", "color is", color);
+  }
